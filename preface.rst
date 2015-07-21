@@ -7,7 +7,7 @@ Preface
 
 These statements were casually uttered in October 2014 by Steve Mayzac, developer at a software company called ElasticSearch (around 6.20 into https://www.youtube.com/watch?v=uxfvNwl_MGc). 
 
-It wasn't hyperbole, it was a frank explanation of their business model. ElasticSearch is a free software company, their users are software developers, and their commercial survival depends on developers choosing to use their product (and then paying for consultancy services if/when they require specialist support). Developer empathy is a health factor for companies like ElasticSearch, something they could never do to well.
+It wasn't hyperbole, it was a frank explanation of their business model. ElasticSearch is a free software company, their users are software developers, and their commercial survival depends on developers choosing to use their product (and then paying for consultancy services if/when they require specialist support). Developer empathy is a health factor for companies like ElasticSearch, something they could never do too well.
 
 Like websites and hand-held device apps, APIs (Application Programming Interfaces) are just another digital channel for delivering services online. APIs already power many of today's websites and apps, and in future they are likely to become more important. This is not just because they are the cheapest, fastest, most cost effective way to deliver some kinds of digital services. It's because they can be incorporated into downstream applications that recombine them in new, creative ways. Good APIs are a case of less being more, stripping a digital service down to it's simplest possible form, so that the value of the service can be amplified through reuse.
 
