@@ -19,9 +19,7 @@ The gold standard in developer empathy is found in successful open source projec
 
 The DTO was about to release a draft API design guide, which describes "developer empathy" as a key principle behind contemporary best practices. When launched, this document will be mandatory policy that all Commonwealth agencies will be obliged to follow, and citizens will be entitled to expect. The purpose of releasing a draft is to get feedback, but at the last minute we had a better idea. What if we converted it to a developer-friendly format, published in a version control system, opened a public ticket system for issues and support, and invited pragmatic people everywhere to help us make it better? What's the worst that could happen?
 
-https://github.com/AusDTO/hackme.git
-
-https://ausdto.readthedocs.org/ if you just want to read it.
+https://github.com/AusDTO/apiguide.git (or https://ausdto.readthedocs.org/ if you just want to read it).
 
 Pull requests welcome.
 
