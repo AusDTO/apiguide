@@ -1,4 +1,7 @@
-# hackme
+# AusDTO API Design Guide
 
-Make the DTO better here.
+DRAFT status documentation, guiding Australian Government Agencies how to go about designing Application Programming Interfaces (APIs).
+
+Released under Creative Commons licence by the Digital Transformation Office (DTO).
+
 
