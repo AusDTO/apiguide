@@ -1,6 +1,7 @@
 import sys
 import os
 import shlex
+
 extensions = ['sphinxcontrib.spelling',]
 spelling_lang = 'en_AU'
 spelling_show_suggestions = True
@@ -17,7 +18,7 @@ language = None
 exclude_patterns = ['_build']
 pygments_style = 'sphinx'
 todo_include_todos = False
-html_theme = 'alabaster'
+html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 htmlhelp_basename = 'APIDesignGuidedoc'
 latex_elements = {
