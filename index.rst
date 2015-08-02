@@ -5,7 +5,10 @@ API Design Guide
    :maxdepth: 2
 
    preface
+   copyright
    principles/index
    build_and_publish/index
    secure_apis
    operate_and_improve_apis
+
+
