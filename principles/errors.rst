@@ -1,4 +1,4 @@
-Clear Error Messages
+Clear error messages
 ====================
 
 **Provide useful error messages**

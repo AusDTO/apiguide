@@ -1,4 +1,4 @@
-Endpoint Stability
+Endpoint stability
 ==================
 
 **Provide appropriate stability and availability**

@@ -1,4 +1,4 @@
-Special Circumstances
+Special circumstances
 =====================
 
 **Use specialised technologies only in special circumstances**

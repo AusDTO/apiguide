@@ -1,4 +1,4 @@
-Community Standards
+Community standards
 ===================
 
 **Follow consistent information standards**
