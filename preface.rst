@@ -25,6 +25,7 @@ We want feedback from developers, right? What if we converted it to a developer-
 
  * read https://apiguide.readthedocs.org/
  * discus https://github.com/AusDTO/apiguide/issues
+ * kanban https://waffle.io/AusDTO/apiguide
  * fork https://github.com/AusDTO/apiguide.git
 
 Pull requests welcome!
