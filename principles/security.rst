@@ -1,4 +1,4 @@
-Privacy and Security
+Privacy and security
 ====================
 
 **Provide appropriate security and privacy**

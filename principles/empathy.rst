@@ -1,4 +1,4 @@
-Developer Empathy
+Developer empathy
 =================
 
 **Design with developer empathy**
