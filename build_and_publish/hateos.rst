@@ -5,23 +5,31 @@ Facilitate state management with HATEOAS where possible
 
 Consider a bank account number 12345 with a positive balance of $100.  A REST query on that resource might return a response indicating that subsequent allowed actions are deposit, withdraw, or transfer:
 
-    {
-        "account_number”:”12345”’
-      “balance”: 100.00,
-      “links”:[ 
-            {“rel”: "deposit",  “href”:"/account/12345/deposit"}, 
-            {“rel”: "withdraw", “href="/account/12345/withdraw"},
-            {“rel”: "transfer", “href”:"/account/12345/transfer"}
-      ]}
+.. sourcecode:: json
+
+   {
+     "account_number”:”12345”’
+     “balance”: 100.00,
+     “links”:[ 
+       {“rel”: "deposit",  “href”:"/account/12345/deposit"}, 
+       {“rel”: "withdraw", “href":"/account/12345/withdraw"},
+       {“rel”: "transfer", “href”:"/account/12345/transfer"}
+     ]
+   }
+
 
 But if the same account is overdrawn by $25 then the only allowed action is deposit:
 
-    {
-        "account_number”:”12345”’
-      “balance”: -25.00,
-      “links”:[ 
-            {“rel”: "deposit",  “href”:"/account/12345/deposit"}
-      ]}
+.. sourcecode:: json
+
+   {
+     "account_number”:”12345”’
+     “balance”: -25.00,
+     “links”:[ 
+       {“rel”: "deposit",  “href”:"/account/12345/deposit"}
+     ]
+   }
+
 
 It is easy to see how many government interactions also have a similar idea of allowed actions depending on state.  Agencies SHOULD apply HATEOAS constraints to their REST implementations where practical.
 

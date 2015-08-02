@@ -3,7 +3,7 @@ Ubiquitous standards
 
 **Use ubiquitous web standards**
 
-Consider API development to be just part of building a website. When choosing technology standards, government should be a follower, not a leader. Just use the same standards and methods that are widely used on the web, following examples set by the leading cloud service platforms. This doesn’t mean use the same technology for everything, but it does mean use the most universally accepted technology solution for each business pattern or requirement.
+Consider API development to be just part of building a website. When choosing technology standards, government should be a follower, not a leader. Just use the same standards and methods that are widely used on the web, following examples set by the leading cloud service platforms. This does not mean use the same technology for everything, but it does mean use the most universally accepted technology solution for each business pattern or requirement.
 
 When choosing technology solutions, the key principles are to:
 

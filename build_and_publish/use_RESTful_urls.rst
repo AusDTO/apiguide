@@ -25,7 +25,7 @@ See `versioning`_ for more details.
 
 .. note::
 
-   If an API URL does not contain a version number (anonymous version), then it should be understood that it always reffers to the latest version. Because the latest version changes with eache release, anonymous versions are not stable.
+   If an API URL does not contain a version number (anonymous version), then it should be understood that it always refers to the latest version. Because the latest version changes with each release, anonymous versions are not stable.
 
 .. Don’t accept any requests that do not specify a version number.
 
@@ -38,18 +38,18 @@ Allow users to request formats like JSON or XML, for example:
  * http://example.gov/api/v1/magazines.xml
 
 
-You shouldn’t need to go deeper than resource/identifier/resource. If you do, then the granularity of your API is probably too coarse.
+You should not need to go deeper than resource/identifier/resource. If you do, then the granularity of your API is probably too coarse.
 
 Put the version number at the base of your URL, for example ???
 
 Parameters in URL v. HTTP header: 
 
  * If it changes the logic you write to handle the response, put it in the URL.
- * If it doesn’t change the logic for each response, like OAuth info, put it in the header.
+ * If it does not change the logic for each response, like OAuth info, put it in the header.
 
 Specify query parameters in a comma separated list.
 
-Formats should be in the form of api/v2/resource/{id}.json
+Formats should be in the form of `api/v2/resource/{id}.json`
 
 
 Good RESTful URL examples

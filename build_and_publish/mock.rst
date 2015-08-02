@@ -1,9 +1,9 @@
-Mock behavior
-=============
+Mock behaviour
+==============
 
-It is suggested that each resource accept a 'mock' parameter on the testing server. Passing this parameter should return a mock data response (bypassing the backend).
+It is suggested that each resource accept a 'mock' parameter on the testing server. Passing this parameter should return a mock data response (bypassing the back-end).
 
-Implementing this feature early in development ensures that the API will exhibit consistent behavior, supporting a test-driven development methodology.
+Implementing this feature early in development ensures that the API will exhibit consistent behaviour, supporting a test-driven development methodology.
 
 Mock features compliment interface specification documents, facilitating development of applications that reuse an API. When supplying client libraries or reference implementations for use with an API, mocking features can be implemented at that layer as an alternative to the API itself.
 

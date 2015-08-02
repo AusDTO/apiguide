@@ -10,6 +10,7 @@ Principles
    coverage
    standards
    specialisation
+   community
    errors
    availability
    security

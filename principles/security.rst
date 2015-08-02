@@ -1,4 +1,4 @@
-Privacy and Secutiry
+Privacy and Security
 ====================
 
 **Provide appropriate security and privacy**
@@ -17,7 +17,7 @@ Table 2: API assurance level implementation guidance
 |                 |                     | - for example, ABN Lookup        | self-registered entity                               |
 |                 |                     |                                  |                                                      |
 +-----------------+---------------------+----------------------------------+------------------------------------------------------+
-| 2               | Low                 | Parking permit application, tax  | OpenID Connect to acc redited identity provider with |
+| 2               | Low                 | Parking permit application, tax  | OpenID Connect to accredited identity provider with  |
 |                 |                     | return, balance enquiry, private | single factor authentication and level 2 identity    |
 |                 |                     | data validation (for example,    | confidence (for example, online registration process |
 |                 |                     | TFN validation)                  | with shared secret)                                  |
