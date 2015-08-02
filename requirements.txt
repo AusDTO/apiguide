@@ -1,2 +1,3 @@
 pyenchant
 sphinxcontrib-spelling
+sphinxcontrib-httpdomain

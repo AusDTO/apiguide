@@ -2,7 +2,7 @@ import sys
 import os
 import shlex
 
-extensions = ['sphinxcontrib.spelling',]
+extensions = ['sphinxcontrib.spelling', 'sphinxcontrib.httpdomain']
 spelling_lang = 'en_AU'
 spelling_show_suggestions = True
 spelling_word_list_filename = 'spelling_wordlist.txt'
