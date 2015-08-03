@@ -27,7 +27,8 @@ See `versioning`_ for more details.
 
    If an API URL does not contain a version number (anonymous version), then it should be understood that it always refers to the latest version. Because the latest version changes with each release, anonymous versions are not stable.
 
-.. Don’t accept any requests that do not specify a version number.
+.. was "Don’t accept any requests that do not specify a version number."
+
 
 Formats
 -------
@@ -38,9 +39,9 @@ Allow users to request formats like JSON or XML, for example:
  * http://example.gov/api/v1/magazines.xml
 
 
-You should not need to go deeper than resource/identifier/resource. If you do, then the granularity of your API is probably too coarse.
+.. see #25
 
-Put the version number at the base of your URL, for example ???
+You should not need to go deeper than resource/identifier/resource. If you do, then the granularity of your API is probably too coarse.
 
 Parameters in URL v. HTTP header: 
 
