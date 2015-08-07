@@ -1,6 +1,8 @@
 Preface to the API Design Guide
 ===============================
 
+A design guide with developer empathy.
+
 Like websites, shop-fronts and call centres, APIs (Application Programming Interfaces) could be viewed as simply another channel for delivering services online. APIs power many of today's websites and mobile apps, and are becoming increasingly important in the digital economy. This is because APIs can be incorporated into downstream applications, whereby third-parties reuse and recombine them in creative ways. Good APIs strip a digital service down to it's simplest possible form, so that the value of the service can be amplified through third-party reuse.
 
 The principle of user-centred design is at the core of website and application development. It's about ergonomics; can a user "consume a digital service" without bad design getting in their way? Getting this right requires empathy for users, backed by evidence regarding user-preferences. Although a well known principle, it is not always well practised.
