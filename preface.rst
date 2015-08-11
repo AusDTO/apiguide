@@ -23,7 +23,7 @@ The gold standard in developer empathy is found in thriving open source projects
 
 The DTO planned to release a draft API design guide describing contemporary best practices in API design and developer empathy. The final document would be mandatory policy that all Commonwealth agencies must follow, and that citizens could be entitled to expect. The purpose of releasing a draft was to get feedback, but at the last minute we had a better idea...
 
-We want feedback from developers, right? So we figured: why not converted it to a developer-friendly format, published in a version control system with a public ticket system for issues and support, and invited our users to help us make it better? 
+We want feedback from developers, right? So we figured: why not convert it to a developer-friendly format, published in a version control system with a public ticket system for issues and support, and invited our users to help us make it better? 
 
 Done.
 
