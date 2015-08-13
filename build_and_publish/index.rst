@@ -8,6 +8,13 @@ Agencies must provide API access to their data and services when any of the foll
  * Any authoritative public data sources containing over 50,000 records.
  * Any new or refreshed digital service.
 
+.. note::
+
+   The above statement is a deliberate provocation, designed to encourage discussion around when APIs should
+   and should not be developed. A mandate like that would require appropriate consultation. If you have comments
+   or suggestions about this, please raise a ticket (or pull request).
+
+
 Agencies are encouraged to make all digital services available as an API, even when below the thresholds specified.
 
 It is recommended that agencies deliver all APIs following ‘Pragmatic REST’ (Representational state transfer) principles detailed below.
