@@ -1,0 +1,8 @@
+This directory contains files with a .crit extension
+
+These .crit files are in yaml format.
+
+Their names are unimportant, but have been chosen to make it easy to find the one you want to edit. This is a bit of a problem.
+
+Their content has been coppied from text in the apiguide. The intention is that they could be generated from adminitions (in rst) or kept separately in .crit files (for markdown), or in a app's datastore.
+ 

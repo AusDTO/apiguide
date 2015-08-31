@@ -1,0 +1,5 @@
+Criteria:
+  text: "All APIs are published, documented, and supported."
+  level: must
+  parent: principles/documentation
+

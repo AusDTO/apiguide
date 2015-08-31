@@ -1,0 +1,4 @@
+Criteria:
+  text: "All retail user interfaces must consume the corresponding wholesale API."
+  level: should
+  parent: principles/dogfood
