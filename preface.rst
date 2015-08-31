@@ -1,27 +1,31 @@
 Preface to the API Design Guide
 ===============================
 
-Like websites and hand-held device apps, APIs (Application Programming Interfaces) are just another channel for delivering services online. APIs already power many of today's websites and apps, and in the future they are likely to become more important. This is not because they are the cheapest, fastest, most cost effective way to deliver some kinds of digital services. It's because they can be incorporated into downstream applications that recombine them in creative ways. Good APIs are a case of less being more, stripping a digital service down to it's simplest possible form, so that the value of the service can be amplified through reuse.
+**A design guide with developer empathy**.
 
-The principle of user-centred design is at the core of website and application development. It's about ergonomics; can a user "consume a digital service" without bad design getting in their way? Getting this right requires empathy for users, validated by real user experiences. It's at least a well known principle, if not always well practised.
+Like websites, shop-fronts and call centres, APIs (Application Programming Interfaces) could be viewed as simply another channel for delivering services online. APIs power many of today's websites and mobile apps, and are becoming increasingly important in the digital economy. This is because APIs can be incorporated into downstream applications, whereby third-parties reuse and recombine them in creative ways. Good APIs strip a digital service down to it's simplest possible form, so that the value of the service can be amplified through third-party reuse.
 
-In some ways, developer empathy is exactly the same; developers are people too. But when developers create value by exploiting an API, they can deliver it to many people. A successful user interaction is a single service delivery event, a single good user experience. A successful API integration is a long lever that can result in many good user experiences.
+The principle of user-centred design is at the core of website and application development. It's about ergonomics; can a user "consume a digital service" without bad design getting in their way? Getting this right requires empathy for users, backed by evidence regarding user-preferences. Although a well known principle, it is not always well practised.
+
+In some ways, developer empathy is exactly the same; developers are people too, and the users of web APIs. The key difference is that when developers use an API, they often create additional value for many people. A well designed end-user experience results in a single good user experience. A well-designed API on the other hand can result in many good user experiences, often enjoyed by those the original service designer did not envision.
 
 .. epigraph::
 
    We have developer empathy. If our interfaces are hard to use, we consider that a bug.
    We are an engineer-led company. Everything we do tries to be compatible with our API.
 
-   -- Steve Mayzac, ElasticSearch (around 6.20 into https://www.youtube.com/watch?v=uxfvNwl_MGc).
+   -- Steve Mayzac, Amazon ElasticSearch (around 6.20 into https://www.youtube.com/watch?v=uxfvNwl_MGc).
 
 
-User empathy is focused on ergonomics at the point of delivery. Developer empathy is focused on the software integration experience. It's still fundamentally about ergonomics but the context is different. As a user, successful design has the quality of affordance (obviousness, "don't make me think"). As a developer, successful design also means knowing how to use an API (affordance through idioms, adequate documentation) and functional fit for a previously unimagined application, but also knowing how and when things are going to change and other stuff that matters in a business partnership with someone else's IT system.
+User empathy is focused on ergonomics at the point of delivery. Developer empathy is focused on painless systems integration. Good API design is still fundamentally about ergonomics, but the context is different. As a user, successful design has the quality of affordance (obviousness, "don't make me think"). For developers, good API design also incorporates this quality (through idioms and good documentation). Further, good API design allows developers to integrate their applications with your systems in a decoupled manner; they are able to reuse the resources exposed by your API in previously unimagined ways. Lastly, good APIs are stable and adhere the 'principle of least surprise': developers are able to rely on your API to behave in a predictable manner.
 
-The gold standard in developer empathy is found in thriving open source projects. Collaboration, peer review and a responsiveand supportive community. Organisations that do well in this space nurture their relationship with developers as though their survival depends on it. This does not describe Australian Government IT of today, but it just might describe the "government as a platform" of the future. Some things are certain; APIs are important, their importance is growing, developer empathy is important and we need all the help we can get.
+The gold standard in developer empathy is found in thriving open source projects. Collaboration, peer review and a responsive community are the hallmarks of such projects. Organisations that do well in this space nurture their relationship with developers as though their survival depends on it (quite often because it does). This does not describe Australian Government IT of today, but hopefully describes the "government as a platform" of tomorrow. Some things are certain: APIs are important, they can generate additional and significant value, developer empathy is critical to successs and we need all the help we can get.
 
-The DTO was about to release a draft API design guide which describes developer empathy as a key principle behind contemporary best practices. When launched, this document will be mandatory policy that all Commonwealth agencies will be obliged to follow, and citizens will be entitled to expect. The purpose of releasing a draft is to get feedback, but at the last minute we had a better idea...
+The DTO planned to release a draft API design guide describing contemporary best practices in API design and developer empathy. The final document would be mandatory policy that all Commonwealth agencies must follow, and that citizens could be entitled to expect. The purpose of releasing a draft was to get feedback, but at the last minute we had a better idea...
 
-We want feedback from developers, right? What if we converted it to a developer-friendly format, published in a version control system, opened a public ticket system for issues and support, and invited pragmatic people everywhere to help us make it better? Done:
+We want feedback from developers, right? So we figured: why not convert it to a developer-friendly format, published in a version control system with a public ticket system for issues and support, and invited our users to help us make it better? 
+
+Done.
 
  * read https://apiguide.readthedocs.org/
  * discus https://github.com/AusDTO/apiguide/issues

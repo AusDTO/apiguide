@@ -243,7 +243,7 @@ Examples
 HTTP response principles
 ------------------------
 
-No values in keys – for example, {"125": "Environment"} is bad, {"id": "125", "name": "Environment"} is good.
+No values in keys – for example, {“125”: “Environment”} is bad, {“id”: “125”, “name”: “Environment”} is good. Note that in the first (bad) example, the key is "125" and the value is "Environment". This is a problem because the key is supposed to be the name of the value. In the second example (good) the keys are descriptions of their coresponding values.
 
 No internal-specific names (for example, "node" and "taxonomy term")
 

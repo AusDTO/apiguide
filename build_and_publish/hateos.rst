@@ -1,4 +1,4 @@
-Manageme state with HATEOAS
+Management state with HATEOAS
 ===========================
 
 “Hypermedia As The Engine Of Application State” (HATEOAS) is a RESTful technique that can make consumer applications simpler and more robust.  In many applications, the allowed actions on a resource depend on the state of that resource.   Rather than require the consumer to understand and code for the allowed states, HATEOAS provides a means for the server to say what is allowed.  The concept is best explained by example.  
