@@ -1,5 +1,5 @@
 Criteria:
   text: "Any function that is available via a retail UI must also be available as a wholesale API."
-  level: must
-  parent: principles/functionality
+  level: "must"
+  parent: "principles/functionality"
 

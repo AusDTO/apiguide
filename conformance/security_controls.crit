@@ -1,5 +1,5 @@
 Criteria:
   text: "All APIs must specify their assurance level and must apply the relevant controls."
-  level: must
-  parent: principles/security
+  level: "must"
+  parent: "principles/security"
 

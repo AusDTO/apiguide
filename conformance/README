@@ -1,8 +1,11 @@
 This directory contains files with a .crit extension
 
-These .crit files are in yaml format.
+These .crit files are in yaml format:
+ * 'text' is the content that appears in checklist and guidance pages
+ * 'level' is a keyword as defined in IETF RFC 2119 (but lower case preffered)
+ * 'parent' is the path-like label of the information node that provides context for the criteria. File extensions are dropped, (e.g. html, rst. or md), spaces and  underscores are equivalent, and case insensitive.
 
-Their names are unimportant, but have been chosen to make it easy to find the one you want to edit. This is a bit of a problem.
+File name of .crit files are ignored, but have been chosen to make it easy to find the one you want to edit. This is a bit of a problem, but exists to support inferior markdown workflows (rst worklows will generate random filenames, because .crit files will be generated from admonition type directives, and application workflows will have primary key identifiers).
 
 Their content has been coppied from text in the apiguide. The intention is that they could be generated from adminitions (in rst) or kept separately in .crit files (for markdown), or in a app's datastore.
  

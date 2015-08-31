@@ -1,5 +1,5 @@
 Criteria:
   text: "Where an established and widely used information standard exists then it should be used."
-  level: should
-  parent: principles/community
+  level: "should"
+  parent: "principles/community"
 

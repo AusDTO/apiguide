@@ -1,5 +1,5 @@
 Criteria:
   text: "All APIs must have a published SLA and should behave accordingly."
-  level: must
-  parent: principles/availability
+  level: "must"
+  parent: "principles/availability"
 

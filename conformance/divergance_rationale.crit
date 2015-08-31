@@ -1,5 +1,5 @@
 Criteria:
   text: "Any divergence from the standards specified in this guide must include a rationale."
-  level: must
-  parent: principles/special circumstances
+  level: "must"
+  parent: "principles/special circumstances"
 

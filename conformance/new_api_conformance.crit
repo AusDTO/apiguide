@@ -1,5 +1,5 @@
 Criteria:
   text: "All new or refreshed API development must conform to the standards in this guide."
-  level: must
-  parent: principles/standards
+  level: "must"
+  parent: "principles/standards"
 

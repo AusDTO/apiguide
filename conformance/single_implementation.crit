@@ -1,5 +1,5 @@
 Criteria:
   text: "There should be only one API function for one business outcome (e.g. change an address)."
-  level: should
-  parent: principles/granularity
+  level: "should"
+  parent: "principles/granularity"
 
