@@ -47,6 +47,13 @@ help:
 	@echo "  linkcheck  to check all external links for integrity"
 	@echo "  doctest    to run all doctests embedded in the documentation (if enabled)"
 	@echo "  coverage   to run coverage check of the documentation (if enabled)"
+	@echo "  ghp-pub    to convert to markdown then integrate with the dss:gh-pages/apiguide"
+
+
+ghp-pub:
+	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/singlehtml
+	./html2md.sh
+	@echo "Build finished. Used pandoc to convert html to $(BUILDDIR)/md"
 
 clean:
 	rm -rf $(BUILDDIR)/*
