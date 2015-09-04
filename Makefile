@@ -50,10 +50,10 @@ help:
 	@echo "  ghp-pub    to convert to markdown then integrate with the dss:gh-pages/apiguide"
 
 
-ghp-pub:
-	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/singlehtml
+ghp-pub: html
 	./html2md.sh
-	@echo "Build finished. Used pandoc to convert html to $(BUILDDIR)/md"
+	@echo "Build finished. Used pandoc to convert html to $(BUILDDIR)/md "
+	@echo "(then butchered it with a bash script)."
 
 clean:
 	rm -rf $(BUILDDIR)/*
