@@ -52,8 +52,9 @@ help:
 
 ghp-pub: html
 	./html2md.sh
-	@echo "Build finished. Used pandoc to convert html to $(BUILDDIR)/md "
+	@echo "Build progressed: Used pandoc to convert html to $(BUILDDIR)/md "
 	@echo "(then butchered it with a bash script)."
+	python md2ghp.py
 
 clean:
 	rm -rf $(BUILDDIR)/*
