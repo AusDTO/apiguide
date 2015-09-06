@@ -7,6 +7,7 @@ MD_SRC="_build/md"
 if [ ! -d "$HTML_SRC" ]
 then
     echo "ERROR: missing directory, %s" % $HTML_SRC
+    echo "(did you run make html first?)"
     exit 1
 fi
 
@@ -23,12 +24,13 @@ do
     fnohtml=`echo $file | rev | cut -d"." -f2 | rev | sed -e 's|^/||'`
     mdname="../md/${fnohtml}.md"
     # this next bit will have a bug if nesting is more than one dir deep
-    dirname=`echo $fnohmtl | rev | cut -d"/" -f2`
+    dirname="`echo $fnohtml | rev | cut -d"/" -f2 | rev`"
     if [ ! "$dirname" == "" ]
     then
-	if [ ! -d $dirname ]
+	targetdir="$oldpwd/$MD_SRC/$dirname"
+	if [ ! -d "$targetdir" ]
 	then
-	    mkdir $dirname
+	    mkdir $targetdir
 	fi
     fi
     # convert to markdown
