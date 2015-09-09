@@ -31,5 +31,9 @@ But if the same account is overdrawn by $25 then the only allowed action is depo
    }
 
 
-It is easy to see how many government interactions also have a similar idea of allowed actions depending on state.  Agencies SHOULD apply HATEOAS constraints to their REST implementations where practical.
+It is easy to see how many government interactions also have a similar idea of allowed actions depending on state.
+
+.. should::
+
+   Agencies should adopt HATEOAS designs for their REST implementations where practical.
 
