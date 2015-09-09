@@ -3,14 +3,33 @@ Documentation
 
 **Ensure APIs are discoverable and documented**
 
-For APIs to be used, they must be discoverable and documented.  The single most important quality of APIs requested by developers is that they are well documented. Agencies must:
+For APIs to be used, they must be discoverable and documented.  Developers often cite the requirement for good documentation as the single most important quality of APIs.
 
- * List their APIs on the DTO service registry. Detailed information on how to do this is provided on the Building and using APIs guidance.
- * Document all their APIs and provide a link to the documentation in the DTO service registry.  
- * Provide feedback and support channels for API users.
-
-The best practice for documentation of APIs is to generate the documentation from the API itself so that there is always a precise alignment between the API and it’s documentation.  Open source tools such as http://swagger.io/ provide simple means to document APIs.
 
 .. recommended::
 
-   All APIs are published, documented, and supported.
+   Publish API documentation, and provide a link to the documentation from the API endpont.
+
+
+.. recommended::
+
+   Provide feedback and support channels for API users.
+
+
+.. may::
+
+   Consider using some sort of *literate system*  that generates the API documentation from
+   API code (or vica verca), to ensure so that there is always a precise alignment between
+   the API and it’s documentation.
+
+
+.. may::
+
+   Consider using open source API specification tools such as http://swagger.io/, to simplify
+   and standardise the means by which APIs are documented.
+
+
+.. recommended::
+
+   All APIs that are published should be adequately documented and supported by the agency
+   that produces them.
