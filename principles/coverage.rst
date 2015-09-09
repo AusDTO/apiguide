@@ -15,4 +15,4 @@ The same entity life cycle modelling approach that you use to identify service g
 
 .. recommended::
 
-   Any function that is available via a retail UI must also be available as a wholesale API.
+   Any function that is available via a (retail) UI should also be available as an API (wholesale).
