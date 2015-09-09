@@ -3,7 +3,13 @@ Privacy and security
 
 **Provide appropriate security and privacy**
 
-The level of protection required for a specific API depends on a risk assessment of the consequences of an information leak.  Agencies must match each API to the relevant assurance level and then apply the controls recommended for that level. 
+The level of protection required for a specific API depends on a risk assessment (e.g. of the consequences of an information leak).
+
+.. should::
+
+   Agencies should match each API to the relevant assurance level so that the controls applied
+   can be comapared to the recommendations for that level. 
+
 
 Table 2: API assurance level implementation guidance
 
@@ -41,4 +47,5 @@ For peer-to-peer messaging using standards such as ebMS3/AS4, the same assurance
 
 .. recommended::
 
-   All APIs  should specify their assurance level and must apply the relevant controls.
+   All APIs  should specify their assurance level when applying the relevant controls.
+
