@@ -1,30 +1,16 @@
 Use HTTP methods and status codes
 =================================
 
-HTTP methods and status codes should be used in compliance with their definitions under the HTTP/1.1 standard. Meaningful status codes helps consumers utilise your API.
+Meaningful status codes helps consumers utilise your API.
+
+.. should::
+
+   HTTP methods and status codes should be used in compliance with their definitions under the HTTP/1.1 standard.
 
 
-.. this statement is clear to me, but might need better explanation
+.. the following statement is clear to me, but needs better explanation.
 
 The action taken on the representation will be contextual to the media type being worked on and its current state.
-
-
-.. Table 1: Example of HTTP methods  and response status codes
-
-.. Example of HTTP methods and response status codes
-   METHOD
-   
-   resource: /magazines (collection)
-   resource: /magazines/1234 (individual)
-   
-   Effect of method
-   Response status code
-   Effect of method
-   Response status code
-   
-   Show the /magazines/1234 resource
-   
-   200 (OK), indicating that the request has succeeded.
 
 
 Examples
