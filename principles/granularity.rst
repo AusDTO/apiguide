@@ -11,5 +11,7 @@ In the electronic world, it is better to treat each of the functions as a separa
 
 A useful method to determine the right service granularity is to identify the key entities that the service impacts and to model their life cycle/s. There is typically one API operation for each entity life cycle state transition.   
 
-**Conformance criteria:** There should be only one API function for one business outcome (e.g. change an address).
+.. recommended::
+
+   There should be only one API function for one business outcome (e.g. change an address).
 

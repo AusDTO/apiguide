@@ -11,4 +11,6 @@ Graceful handling of failure conditions is an essential part of delivering a hig
 
 Further information on error messaging for REST APIs is provided in the Build and publish APIs guidance.
 
-**Conformance criteria:** No unexpected behaviour from any API in production release
+.. recommended::
+
+   No unexpected behaviour from any API in production release

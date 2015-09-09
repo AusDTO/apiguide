@@ -11,5 +11,7 @@ Although these niche technologies **can** be used outside their design scope, th
 
 .. although it is possible to use these niche technologies....
 
-**Conformance criteria:** Any divergence from the standards specified in this guide must include a rationale.
+.. recommended::
+
+   Any divergence from the standards specified in this guide must include a rationale.
 

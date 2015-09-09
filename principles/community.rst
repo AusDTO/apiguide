@@ -22,4 +22,7 @@ Some useful resources for standard terms and codes that can be used to construct
  * Australian Reporting Dictionary www.dictionary.sbr.gov.au 
  * US government National Information Exchange Model www.niem.gov/technical/Pages/current-release.aspx 
 
-**Conformance criteria:** Where an established and widely used information standard exists then it should be used.
+
+.. recommended::
+
+   Where an established and widely used information standard exists then it should be used.

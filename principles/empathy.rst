@@ -11,4 +11,6 @@ Hard-to-use APIs create bad public policy outcomes:
 
 To ensure dicoverability and accountability, all Government APIs will be published to a central service register (as described in Building and Publishing APIs secion [insert link]).  The service register will give developers a mechanism to provide feedback on APIs.  An API that is consistently rated as hard to use will be deemed defective and should be remediated.
 
-**Conformance Criteria:** less than 20% of feedback rates the API as hard to use.
+.. recommended::
+
+   Less than 20% of feedback rates the API as hard to use.

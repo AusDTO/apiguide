@@ -11,4 +11,6 @@ For APIs to be used, they must be discoverable and documented.  The single most 
 
 The best practice for documentation of APIs is to generate the documentation from the API itself so that there is always a precise alignment between the API and it’s documentation.  Open source tools such as http://swagger.io/ provide simple means to document APIs.
 
-**Conformance criteria:** All APIs are published, documented, and supported.
+.. recommended::
+
+   All APIs are published, documented, and supported.

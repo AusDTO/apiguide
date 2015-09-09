@@ -39,4 +39,6 @@ Guidance on the best practice usage of the OpenID Connect protocol for securing 
 
 For peer-to-peer messaging using standards such as ebMS3/AS4, the same assurance level is achieved but with different protocols (WS-Security and SAML2.0).  
 
-**Conformance criteria:** All APIs must specify their assurance level and must apply the relevant controls.
+.. recommended::
+
+   All APIs  should specify their assurance level and must apply the relevant controls.

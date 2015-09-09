@@ -14,4 +14,6 @@ Another applicant has chosen to use the services of an intermediary that special
 
 In both these cases, the agency back-end grants assessment system receives the data from the same API interface. If the agency wants to change the online form, they must also change the API – and so both remain aligned.
 
-**Conformance criteria:** All retail user interfaces must consume the corresponding wholesale API.
+.. recommended::
+
+   All retail user interfaces must consume the corresponding wholesale API.

@@ -12,5 +12,8 @@ When a third-party software application integrates a government API, then it may
 
 Further information on this topic is provided in the Operate & Improve APIs guidance.
 
-**Conformance criteria:**  All APIs must have a published SLA and should behave accordingly.
+
+.. recommended::
+
+   All APIs should have a published SLA and behave accordingly.
 

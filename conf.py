@@ -2,7 +2,11 @@ import sys
 import os
 import shlex
 
-extensions = ['sphinxcontrib.spelling', 'sphinxcontrib.httpdomain']
+extensions = [
+    'sphinxcontrib.spelling',
+    'sphinxcontrib.httpdomain',
+    'sphinx_rfc2119',
+]
 spelling_lang = 'en_AU'
 spelling_show_suggestions = True
 spelling_word_list_filename = 'spelling_wordlist.txt'
@@ -15,7 +19,7 @@ author = u'AusDTO'
 version = '0.1'
 release = '0.1'
 language = None
-exclude_patterns = ['_build']
+exclude_patterns = ['_build', '**venv**']
 pygments_style = 'sphinx'
 todo_include_todos = False
 html_theme = 'sphinx_rtd_theme'

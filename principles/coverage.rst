@@ -13,4 +13,6 @@ For example, a payroll tax lodgement API that can be consumed by a business payr
 
 The same entity life cycle modelling approach that you use to identify service granularity will also help you to understand which services are necessary to support the full business process.
 
-**Conformance Criteria:** Any function that is available via a retail UI must also be available as a wholesale API.
+.. recommended::
+
+   Any function that is available via a retail UI must also be available as a wholesale API.

@@ -33,5 +33,7 @@ Table 1:  API Technology Selection Guide
 
 It is expected that the vast majority of government API services will be type 3 or 4.  Therefore we provide further detailed information on REST/JSON APIs in Building and publishing APIs and further detailed information on OpenID Connect in Securing APIs.
 
-**Conformance criteria:** All new or refreshed API development must conform to the standards in this guide.
+.. recommended::
+
+   All new or refreshed API development should conform to the standards in this guide.
 

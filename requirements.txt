@@ -1,3 +1,4 @@
 pyenchant
 sphinxcontrib-spelling
 sphinxcontrib-httpdomain
+sphinx_rfc2119
