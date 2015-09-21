@@ -14,7 +14,7 @@ In some ways, developer empathy is exactly the same; developers are people too, 
    We have developer empathy. If our interfaces are hard to use, we consider that a bug.
    We are an engineer-led company. Everything we do tries to be compatible with our API.
 
-   -- Steve Mayzac, Amazon ElasticSearch (around 6.20 into https://www.youtube.com/watch?v=uxfvNwl_MGc).
+   -- Steve Mayzak, ElasticSearch (around 6.20 into https://www.youtube.com/watch?v=uxfvNwl_MGc).
 
 
 User empathy is focused on ergonomics at the point of delivery. Developer empathy is focused on painless systems integration. Good API design is still fundamentally about ergonomics, but the context is different. As a user, successful design has the quality of affordance (obviousness, "don't make me think"). For developers, good API design also incorporates this quality (through idioms and good documentation). Further, good API design allows developers to integrate their applications with your systems in a decoupled manner; they are able to reuse the resources exposed by your API in previously unimagined ways. Lastly, good APIs are stable and adhere the 'principle of least surprise': developers are able to rely on your API to behave in a predictable manner.
