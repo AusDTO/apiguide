@@ -122,7 +122,7 @@ technique, and can occasionally create problems with caching behavior of some pr
 servers.
 
 Resource label specification of API payload format, such as `/foo/{id}.json`, are
-functionally equivalent to GET parameter encoding but without the (admittedly rate) 
+functionally equivalent to GET parameter encoding but without the (admittedly rare) 
 proxy caching issues.
 
 .. should::
